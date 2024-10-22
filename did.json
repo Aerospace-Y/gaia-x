@@ -1,3 +1,24 @@
 {
-  "id": "did:web:Aerospace-Y.github.io:gaia-x"
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/v2",
+        "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
+    ],
+    "id": "did:web:Aerospace-Y.github.io:gaia-x",
+    "verificationMethod": [
+        {
+            "id": "did:web:Aerospace-Y.github.io:gaia-x#0458a8f208193646c49c7fdd4fa915fc37e27a4be18a5be3755bbc0b4cb6c552933033187033b7cb0cd652b6f73f83be12af100de81c0c06abfcecf28e8221bd8a",
+            "type": "EcdsaSecp256k1VerificationKey2019",
+            "controller": "did:web:Aerospace-Y.github.io:gaia-x",
+            "publicKeyHex": "0458a8f208193646c49c7fdd4fa915fc37e27a4be18a5be3755bbc0b4cb6c552933033187033b7cb0cd652b6f73f83be12af100de81c0c06abfcecf28e8221bd8a"
+        }
+    ],
+    "authentication": [
+        "did:web:Aerospace-Y.github.io:gaia-x#0458a8f208193646c49c7fdd4fa915fc37e27a4be18a5be3755bbc0b4cb6c552933033187033b7cb0cd652b6f73f83be12af100de81c0c06abfcecf28e8221bd8a"
+    ],
+    "assertionMethod": [
+        "did:web:Aerospace-Y.github.io:gaia-x#0458a8f208193646c49c7fdd4fa915fc37e27a4be18a5be3755bbc0b4cb6c552933033187033b7cb0cd652b6f73f83be12af100de81c0c06abfcecf28e8221bd8a"
+    ],
+    "keyAgreement": [],
+    "service": []
 }
